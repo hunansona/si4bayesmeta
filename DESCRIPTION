@@ -1,0 +1,14 @@
+Package: si4bayesmeta
+Type: Package
+Title: Sensitivity and Identification for the Bayesian Meta-Analysis
+Version: 1.1-1
+Date: 2020-11-23
+Author: Sona Hunanyan [aut, cre], Malgorzata Roos [aut]
+Maintainer: Sona Hunanyan <sona.hunanyan@uzh.ch>
+Description: Sensitivity and identification estimates for all the parameters in the Bayesian normal-normal hierarchical model (NNHM) and in the Bayesian normal-Student t hierarchical model (NtHM) induced by a Half-Normal (HN) and a Half-Cauchy (HC) heterogeneity priors. Estimates are produced by 4 functions for Bayesian NNHM fitted either with bayesmeta or JAGS and by 2 functions for Bayesian NtHM fitted with JAGS. Six scenarios are considered: target relative latent model complexity (RLMC) values fixed at 0.25, 0.5 and 0.75 with RLMC-adjusted HN and HC heterogeneity priors. Corresponding posterior estimates can be obtained by the functions of raw_estimates_type. The methodology implemented in this package has been developed in Roos et al. (2020).
+License: GPL (>=2)
+Depends: bayesmeta, R (>= 3.5.0)
+Imports: rjags (>= 3-13), coda (>= 0.13)
+SystemRequirements: JAGS-4.x.y.exe (x >=0, y>=0)
+NeedsCompilation: no
+Packaged: 2020-11-24 13:01:44 UTC; Sona Hunanyan
