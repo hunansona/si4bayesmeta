@@ -4,7 +4,7 @@
 \title{Computation of Sensitivity and Identification measure expressed by the second derivative of the Bhattacharyya coefficient for a Bayesian NtHM with a HC heterogeneity prior in JAGS
 %%  ~~function to do ... ~~
 }
-\description{Returns the second derivative of Bhattacharyya coefficient for a Bayesian NtHM with respect to Priori and Likelihood perturbations given a HC heterogeneity prior fitted by JAGS.
+\description{Returns the negative second derivative of Bhattacharyya coefficient for a Bayesian NtHM with respect to Priori and Likelihood perturbations given a HC heterogeneity prior fitted by JAGS. The negative second derivative of BC assesses the curvature of the squared Hellinger distance (H^2). 
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{

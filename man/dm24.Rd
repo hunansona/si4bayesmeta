@@ -7,7 +7,7 @@ Diabetes Mellitus and COVID-19 severity data
 }
 \description{
 Meta-analysis data set including 24 observational studies for exploring the relationship between underlying diabetes mellitus
-and the severe course of COVID-19 disease. Most studies were from mainland China. Diabetes was present in 1405 patients.
+and the severe course of COVID-19 disease. 
 %%  ~~ A concise (1-5 lines) description of the dataset. ~~
 }
 \usage{data(dm24)}
@@ -28,7 +28,7 @@ and the severe course of COVID-19 disease. Most studies were from mainland China
   }
 }
 \details{
-The data set was collected and analyzed by Kumar et al. (2020). Overall, 13954 patients were included in 24 studies. The largest study (number 20) based on registry data from 6637 patients was only classified as a fair quality study. Kumar et al. (2020) omitted this study and conducted a second meta-analysis based on 23 studies. 
+The data set was collected and analyzed by Kumar et al. (2020). Overall, 13954 patients were included in 24 studies. Most studies were from mainland China. Diabetes was present in 1405 patients. The largest study (number 20) based on registry data from 6637 patients was only classified as a fair quality study. Kumar et al. (2020) omitted this study and conducted a second meta-analysis based on 23 studies. 
 
 
 %%  ~~ If necessary, more details than the __description__ above ~~

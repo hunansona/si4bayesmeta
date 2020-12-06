@@ -4,7 +4,7 @@
 \title{Sensitivity and Identification measure expressed by the second derivative of the Bhattacharyya coefficient for a Bayesian NNHM with a HC heterogeneity prior in bayesmeta.
 %%  ~~function to do ... ~~
 }
-\description{Returns the second derivative of the Bhattacharyya coefficient for a Bayesian NNHM with respect to Priori and Likelihood perturbations given a HC heterogeneity prior .
+\description{Returns the negative second derivative of the Bhattacharyya coefficient for a Bayesian NNHM with respect to Priori and Likelihood perturbations given a HC heterogeneity prior. The negative second derivative of BC assesses the curvature of the squared Hellinger distance (\eqn{H^2}). 
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
